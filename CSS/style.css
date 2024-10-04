@@ -1,0 +1,35 @@
+/* body{
+    background-color: navajowhite;
+}
+#container{
+    background-color: rgb(230, 247, 252);
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-top: 100px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.child1{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    border: 2px dotted rgb(245, 53, 5) ;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: rgb(30, 18, 163);
+} */
+/* div> p{
+    background-color: indianred;
+}
+div+p{
+    background-color: rgb(11, 170, 11);
+}  */
+.c{
+    background-color: lavender;
+}
+#i{
+    background-color: lawngreen;
+}
