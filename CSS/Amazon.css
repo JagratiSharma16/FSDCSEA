@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #0F1111;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+input{
+    height: 30px;
+    width: 600px;
+}
