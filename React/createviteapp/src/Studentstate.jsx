@@ -1,9 +1,31 @@
 import React, { useState } from 'react';
 
 function Studentstate() {
-    const[count,setcount]=useState(100);
+  const [count, setCount] = useState(100);
+  function Increment(){
+    setCount(count + 1)
+  }
+  function Decrement(){
+    setCount(count - 1)
+  }
   return (
-    <div>{count} </div>
+    <div>
+      {count}
+      <button
+        onClick={() => { setCount(count + 1) }}>
+        Increment
+      </button>
+      
+      <button
+        onClick={Increment}>
+        Increment
+      </button>
+
+      <button
+        onClick={Decrement}>
+        Decrement
+      </button>
+    </div>
   )
 }
 

@@ -2,11 +2,15 @@ import React from 'react';
 import Student from './Student'
 // import defaulpic from './asset'
 import Studentstate from "./Studentstate";
+import Imgmanipulation from "./Imgmanipulation";
+import "./Student.css"
 
 function App() {
   return (
-
-<div><Studentstate/></div>  )
+<>
+{/* <div><Studentstate/></div> */}
+<div><Imgmanipulation/></div> 
+</> )
 }
 //   let a = 12
 //   const mystyle = {
