@@ -9,7 +9,7 @@ function Student({data}) {
 
             {
                 // JSON.stringify(data)
-            }
+            } 
             <table>
                 <tbody>
                     <tr style={{ backgroundColor: 'lavender' }}>
