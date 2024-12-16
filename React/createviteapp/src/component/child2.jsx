@@ -1,9 +1,13 @@
 import React from 'react'
+import Child3 from './child3'
 
-function child2() {
+function Child2({child2data}) {
   return (
-    <div>child2</div>
+    <div>child2
+        Name: {child2data.name}
+        <Child3 child3data={child2data}/>
+    </div>
   )
 }
 
-export default child2
+export default Child2

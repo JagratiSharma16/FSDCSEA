@@ -1,5 +1,6 @@
 import React from 'react'
-import child1 from './component/child1'
+import Child1 from './component/child1'
+// import Child1 from './component/Child1'
 
 function AppProps() {
     const data={
@@ -10,7 +11,7 @@ function AppProps() {
   return (
     <div>AppProps
         <div>
-            <child1/>
+            <Child1 child1data={data}/>
         </div>
     </div>
 
