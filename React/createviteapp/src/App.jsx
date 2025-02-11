@@ -94,6 +94,7 @@ function App() {
     //   <Registration registrationData={setRegData}/>
     // </div>
 
+    
     <div>
       <BrowserRouter>
         <Routes>
