@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
+        .container {
+            margin-top: 200px;
+            
             display: flex;
             background-color: burlywood;
-            border: 2px solid red;
+            border: 10px solid rgb(252, 121, 121);
             flex-wrap: wrap;
             justify-content: space-evenly;
+            align-items: center;
         }
-        .child1,.child2,.child3{
-            height:500px;
-            width:500px;
-            border:1px solid black;
+
+        .child1,
+        .child2,
+        .child3 {
+            height: 500px;
+            width: 500px;
+            border: 1px solid black;
         }
-        img{
+
+        img {
             width: 500px;
             /* height: 500px; */
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-    <div class="child1"> 
-        <img src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=600" alt="studentpic 1">
-        <h1>Student 1</h1>
+        <div class="child1">
+            <img src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="studentpic 1">
+            <h1>Student 1</h1>
+        </div>
+        <div class="child2">
+            <img src="https://images.pexels.com/photos/1462633/pexels-photo-1462633.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="studentpic 1">
+            <h1>Student 2</h1>
+        </div>
+        <div class="child3">
+            <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="studentpic 1">
+            <h1>Student 3</h1>
+        </div>
     </div>
-    <div class="child2">
-        <img src="https://images.pexels.com/photos/1462633/pexels-photo-1462633.jpeg?auto=compress&cs=tinysrgb&w=600" alt="studentpic 1">
-        <h1>Student 2</h1>
-    </div>
-    <div class="child3">
-        <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600" alt="studentpic 1">
-        <h1>Student 3</h1>
-    </div>
-</div>
-    
+
 </body>
+
 </html>
