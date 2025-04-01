@@ -2,14 +2,17 @@ import { useState } from 'react'
 
 import './App.css'
 import Register from './component/Register'
+import Login from './component/Login'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div>
-
+      <div>
+        <Login/>
+      </div>
       <Register />
     </div>
   )
